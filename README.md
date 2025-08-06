@@ -29,6 +29,13 @@ The core of this method is a simple but powerful required checklist that any AI 
 3.  **Step 3: The tool is only allowed to show its work if it passes its own quality check.** The AI is only permitted to provide its final output if the answer to its own internal audit is "No." If the answer is "Yes," it is forced to go back to Step 1 and do the work again correctly. **This required checking process guarantees** that only complete and accurate work is ever delivered.
 
 ---
+### **Technical Appendix: The Demonstration Script**
+    
+For those interested in the practical implementation, a clean, well-commented Python script demonstrating the core methodology of this case study can be found in the `src` directory of this repository. The script is designed to be a self-contained, illustrative example, not a production-ready engine.
+    
+  *   [**View the script: `demo_ai_quality_framework.py`**](./src/demo_ai_quality_framework.py)
+
+---
 
 *Go back to the [**Main Portfolio Page**](https://github.com/seancasey-portfolio) or explore another case study:*
 *   *[Turning Messy Spreadsheets into a Usable Database](https://github.com/seancasey-portfolio/Case-Study-Cleaning-Legacy-Data)*
